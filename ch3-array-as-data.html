@@ -37,20 +37,20 @@
             .text(function(d) {
                 return d;
             });
-
-        // Exit
-        d3.select("body").selectAll("div.h-bar")
-            .data(data)
-            .exit().remove();
+//
+//        // Exit
+//        d3.select("body").selectAll("div.h-bar")
+//            .data(data)
+//            .exit().remove();
     }
-
-    setInterval(function(){
-        data.shift();
-        data.push(Math.round(Math.random() * 100));
-
-        render(data);
-
-    }, 1500);
+//
+//    setInterval(function(){
+//        data.shift();
+//        data.push(Math.round(Math.random() * 100));
+//
+//        render(data);
+//
+//    }, 1500);
 
     render(data);
 
