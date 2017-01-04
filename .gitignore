@@ -8,3 +8,5 @@ node_modules
 # ide files
 *.iml
 .idea
+
+.DS_Store
